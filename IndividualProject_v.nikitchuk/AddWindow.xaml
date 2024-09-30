@@ -1,0 +1,27 @@
+﻿<Window x:Class="IndividualProject_v.nikitchuk.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndividualProject_v.nikitchuk"
+        mc:Ignorable="d"
+        Title="Новый заказ" Height="377" Width="578" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF3F3F3">
+        <Button x:Name="SaveButton" Content="Сохранить" HorizontalAlignment="Left" Margin="198,306,0,0" VerticalAlignment="Top" Width="162" Click="SaveButton_Click"/>
+        <TextBox x:Name="OrderTextBox" HorizontalAlignment="Left" Margin="10,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="537" Height="92" BorderBrush="Black" IsReadOnly="True"/>
+        <Label Content="Заказ:" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="537" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="1,1,1,0"/>
+        <ComboBox x:Name="ProductComboBox" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="176" SelectionChanged="ProductComboBox_SelectionChanged"/>
+        <Label Content="Товар:" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Width="176"/>
+        <Label Content="Количество:" HorizontalAlignment="Left" Margin="218,9,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Цена за штуку:" HorizontalAlignment="Left" Margin="320,9,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CountProductTextBox" HorizontalAlignment="Left" Margin="218,35,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="69" Height="22" PreviewTextInput="CountProductTextBox_PreviewTextInput"/>
+        <TextBox x:Name="OneCostTextBox" HorizontalAlignment="Left" Margin="320,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22" IsReadOnly="True"/>
+        <Label Content="*" HorizontalAlignment="Left" Margin="195,33,0,0" VerticalAlignment="Top" Width="16" Height="24"/>
+        <Button x:Name="AddToOrderButton" Content="Добавить к заказу" HorizontalAlignment="Left" Margin="450,36,0,0" VerticalAlignment="Top" Click="AddToOrderButton_Click"/>
+        <TextBox x:Name="NameClientTextBox" HorizontalAlignment="Left" Margin="10,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" Height="18" PreviewTextInput="NameClientTextBox_PreviewTextInput"/>
+        <TextBox x:Name="PhoneNumberTextBox" HorizontalAlignment="Left" Margin="320,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="PhoneNumberTextBox_PreviewTextInput"/>
+        <Label Content="ФИО:" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Номер телефона:" HorizontalAlignment="Left" Margin="320,73,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ClearButton" Content="Очистить" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top" Width="537" Click="ClearButton_Click"/>
+    </Grid>
+</Window>
