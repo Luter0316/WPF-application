@@ -1,0 +1,6 @@
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\perfe\OneDrive\ЯрГУ\Разработка программных приложений 3к1с\IndividualProject_v.nikitchuk\IndividualProject_v.nikitchuk\ClassLibrary\obj\Debug\ClassLibrary.pdb
